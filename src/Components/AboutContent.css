@@ -1,0 +1,41 @@
+.about{
+    width: 100%;
+    height: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+   text-align: center;
+   margin: auto;
+   padding: 1rem;
+   max-width: 350px;
+}
+.about .left p{
+    margin:1,2rem 0 ;
+}
+.about .right{
+    max-width: 700px;
+}
+.right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.img-stack img{
+    height: 400px;
+    margin-right: -140%;
+}
+.left button{
+    margin-top: 13px;
+}
+@media screen and (max-width:740px){
+    .img-stack img{
+        
+        margin-right: -70%;
+    }
+}
